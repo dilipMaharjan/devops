@@ -1,3 +1,4 @@
 FROM openjdk:8-jdk-alpine
-ADD target/app.jar app.jar
+EXPOSE 8081
+ADD target/*.jar app.jar
 ENTRYPOINT ["sh", "-c", "java -jar /app.jar"]
