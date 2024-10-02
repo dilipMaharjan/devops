@@ -1,3 +1,5 @@
 A simple image to run a python code that prints hello word
 
-Run command:   docker run crazdrms/hello_from_docker_img
+Run Command: docker build . -t <image name>  to build image
+
+Run command:   docker run <image name>
