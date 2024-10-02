@@ -3,3 +3,6 @@ A simple image to run a python code that prints hello word
 Run Command: docker build . -t <image name>  to build image
 
 Run command:   docker run <image name>
+
+incase of using env vairaible  
+RUN command: docker run -e MESSAGE='<Your message>'  <image name>
